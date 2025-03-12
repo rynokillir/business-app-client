@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Business Client</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <h1>Business App</h1>
+  <div id="auth" style="display: block;">
+    <h2>Login</h2>
+    <form id="loginForm">
+      <label for="loginUsername">Username:</label>
+      <input type="text" id="loginUsername" required>
+      <label for="loginPassword">Password:</label>
+      <input type="password" id="loginPassword" required>
+      <button type="submit">Login</button>
+    </form>
+    <h2>Register</h2>
+    <form id="registerForm">
+      <label for="regUsername">Username:</label>
+      <input type="text" id="regUsername" required>
+      <label for="regPassword">Password:</label>
+      <input type="password" id="regPassword" required>
+      <button type="submit">Register</button>
+    </form>
+    <p id="authResponse"></p>
+  </div>
+  <div id="app" style="display: none;">
+    <h2>Welcome, <span id="username"></span>!</h2>
+    <div id="profile"></div>
+    <form id="inputForm">
+      <label for="dataInput">Enter Data:</label>
+      <input type="text" id="dataInput" name="data" required>
+      <label for="category">Category:</label>
+      <select id="category">
+        <option value="General">General</option>
+        <option value="Work">Work</option>
+        <option value="Personal">Personal</option>
+      </select>
+      <button type="submit">Submit</button>
+    </form>
+    <input type="text" id="searchInput" placeholder="Search inputs...">
+    <button id="searchBtn">Search</button>
+    <button id="clearSearch">Clear Search</button>
+    <button id="logout">Logout</button>
+    <div id="response"></div>
+  </div>
+  <script src="script.js"></script>
+</body>
+</html>

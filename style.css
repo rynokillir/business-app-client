@@ -1,0 +1,45 @@
+body {
+  font-family: Arial, sans-serif;
+  max-width: 800px;
+  margin: 20px auto;
+  padding: 20px;
+}
+form {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  margin-bottom: 20px;
+}
+button {
+  padding: 8px;
+  background-color: #007bff;
+  color: white;
+  border: none;
+  cursor: pointer;
+}
+button:hover {
+  background-color: #0056b3;
+}
+#response {
+  margin-top: 20px;
+  color: green;
+}
+#authResponse {
+  margin-top: 10px;
+  color: red;
+}
+.input-item {
+  display: flex;
+  gap: 10px;
+  align-items: center;
+  margin: 5px 0;
+}
+#searchInput {
+  padding: 8px;
+  margin-right: 10px;
+}
+#profile {
+  margin-bottom: 20px;
+  padding: 10px;
+  background-color: #f5f5f5;
+}
