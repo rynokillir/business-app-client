@@ -12,8 +12,7 @@ const searchBtn = document.getElementById('searchBtn');
 const clearSearchBtn = document.getElementById('clearSearch');
 const profileDiv = document.getElementById('profile');
 
-// Update this with your Elastic Beanstalk URL after deployment
-const API_URL = 'http://localhost:3000'; // Placeholder
+const API_URL = 'http://my-business-app-env.eba-zxaqqkmv.us-west-2.elasticbeanstalk.com';
 
 let token = localStorage.getItem('token');
 
