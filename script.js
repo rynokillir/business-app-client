@@ -12,7 +12,7 @@ const searchBtn = document.getElementById('searchBtn');
 const clearSearchBtn = document.getElementById('clearSearch');
 const profileDiv = document.getElementById('profile');
 
-const API_URL = 'http://my-business-app-env-east.us-east-1.elasticbeanstalk.com';
+const API_URL = 'http://my-business-app-env-east.eba-tcxjhese.us-east-1.elasticbeanstalk.com';
 
 let token = localStorage.getItem('token');
 
@@ -181,4 +181,5 @@ function showApp() {
   appDiv.style.display = 'block';
   authResponse.textContent = '';
 }
+
 
